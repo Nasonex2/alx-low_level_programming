@@ -4,9 +4,15 @@
  * main -  prints -Putchar, followed by a new line
  * Return: Always 0 (Success)
  */
+#include "main.h"
+
+/**
+ * main -  prints -Putchar, followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	putchar('');
+	_putchar('');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
